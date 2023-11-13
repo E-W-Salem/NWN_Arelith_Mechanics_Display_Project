@@ -1,0 +1,168 @@
+nwsync: reconfigured successfully
+Error: 40964
+Error: 40964
+Error: 40964
+GOG: Authentication failed: 1
+Game is using local port: 59479
+Your cryptographic public identity is: Lsca5yY5s1pz4SpGiFHiZzKPc57xLdxhpvDJW/CADnQ=
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:47] Someone damages Bink: 23 (23 Magical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:47] Welcome to Arelith!
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:47] Gaining 1 intelligence, 1 reflex bonus from wearing light or no armor.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:47] Gaining bonus Attack Bonus from Dual-Wielding.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:49] Area Setting: [Magic] [State] [Teleport] [Transfer] [Death]
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:49] Arelith NWN Engine
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:49] You are fighting in subdual mode.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:57] Bink casts Summon Shadow
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:57] Summoned a creature
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:57] Summoned Shadow is now guarding you!
+[CHAT WINDOW TEXT] [Wed Nov  8 21:47:57] Summon Shadow has been locked and will not become available until 3 minutes after the summon has been killed or is dismissed.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] You receive a little roleplay bonus.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] Experience Points Gained:  20
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] +20 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] You receive a little adventuring bonus (6925 remaining)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] Experience Points Gained:  100
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] +100 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] The time is now 22:45.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] It is quite cold out. Wrap up warm by wearing winter clothing.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] Food: -1.0% (90.6%)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] Water: -2.1% (63.4%)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] Rest: -2.1% (49.2%)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:26] Piety: -0.1% (99.9%)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:48:52] Blinding Speed has a timer of 5 minutes. You may not use Blinding Speed again for this period of time.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:04] Forest Ogre attacks Bink : *miss* : (12 + 16 = 28)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:04] Bink : Initiative Roll : 14 : (1 + 13 = 14)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:04] Mountain Giant attacks Bink : *miss* : (2 + 11 = 13)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Bink attacks Mountain Giant : *hit* : (12 + 33 = 45)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Mountain Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Bink damages Mountain Giant: 17 (12 Physical 5 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Bink attacks Mountain Giant : *critical hit* : (18 + 28 = 46 : Threat Roll: 10 + 28 = 38)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Sneak Attack : Summoned Shadow attacks Mountain Giant : *critical hit* : (19 + 24 = 43 : Threat Roll: 10 + 24 = 34)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Sneak Attack : Summoned Shadow attacks Mountain Giant : *hit* : (15 + 19 = 34)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Mountain Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Summoned Shadow shields you from an attacker.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:05] Bink damages Mountain Giant: 42 (35 Physical 7 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:06] Bink attacks Mountain Giant : *hit* : (13 + 23 = 36)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:06] Summoned Shadow damages Mountain Giant: 9 (9 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:06] Summoned Shadow damages Mountain Giant: 4 (4 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:06] Forest Ogre attacks Bink : *miss* : (18 + 13 = 31)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:06] Mountain Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:06] Bink damages Mountain Giant: 21 (15 Physical 6 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Sneak Attack : Bink attacks Mountain Giant : *hit* : (18 + 20 = 38 : Threat Roll: 4 + 20 = 24)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Mountain Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Bink damages Mountain Giant: 55 (50 Physical 5 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Sneak Attack : Bink attacks Mountain Giant : *hit* : (15 + 37 = 52)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Mountain Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Bink damages Mountain Giant: 49 (44 Physical 5 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Experience Points Gained:  8
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] +8 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Piety: +0.3 (100.0%)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:07] Bink killed Mountain Giant
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:08] Off Hand : Bink attacks Forest Ogre : *hit* : (5 + 33 = 38)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:09] Bink damages Forest Ogre: 22 (16 Physical 6 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:09] Off Hand : Bink attacks Forest Ogre : *hit* : (14 + 28 = 42)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:09] Sneak Attack : Summoned Shadow attacks Forest Ogre : *hit* : (17 + 24 = 41)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:09] Sneak Attack : Summoned Shadow attacks Forest Ogre : *hit* : (13 + 19 = 32)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:09] Bink damages Forest Ogre: 24 (19 Physical 5 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:09] Summoned Shadow damages Forest Ogre: 9 (9 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:09] Summoned Shadow damages Forest Ogre: 8 (8 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:10] Sneak Attack : Bink attacks Forest Ogre : *hit* : (9 + 35 = 44)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:10] Bink damages Forest Ogre: 42 (41 Physical 1 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:10] Sneak Attack : Bink attacks Forest Ogre : *hit* : (17 + 30 = 47)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Bink damages Forest Ogre: 52 (47 Physical 5 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Experience Points Gained:  8
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] +8 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Bink killed Forest Ogre
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Sneak Attack : Bink attacks Forest Ogre : *hit* : (14 + 25 = 39)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Hill Giant hurls a rock.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Summoned Shadow attacks Forest Ogre : *hit* : (6 + 12 = 18)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Summoned Shadow damages Forest Ogre: 5 (5 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Off Hand : Summoned Shadow attacks Forest Ogre : *hit* : (4 + 22 = 26)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:11] Hill Giant hurls a rock.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Summoned Shadow damages Forest Ogre: 2 (2 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Forest Ogre attacks Summoned Shadow : *target concealed: 61%* : (4 + 16 = 20)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Bink : Reflex Save : *success* : (17 + 29 = 46 vs. DC: 16)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Sneak Attack : Bink attacks Forest Ogre : *hit* : (11 + 20 = 31)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Summoned Shadow shields you from an attacker.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Sneak Attack : Bink attacks Forest Ogre : *hit* : (4 + 37 = 41)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Bink : Reflex Save : *success* : (7 + 29 = 36 vs. DC: 16)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Bink damages Forest Ogre: 39 (37 Physical 2 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:12] Bink damages Forest Ogre: 49 (44 Physical 5 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:13] Off Hand : Summoned Shadow attacks Forest Ogre : *critical hit* : (20 + 17 = 37 : Threat Roll: 14 + 17 = 31)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:13] Summoned Shadow damages Forest Ogre: 4 (4 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:13] Mountain Wolf attacks Summoned Shadow : *hit* : (11 + 18 = 29)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Mountain Wolf damages Summoned Shadow: 6 (6 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Off Hand : Sneak Attack : Bink attacks Forest Ogre : *critical hit* : (18 + 35 = 53 : Threat Roll: 11 + 35 = 46)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Summoned Shadow attacks Forest Ogre : *hit* : (6 + 22 = 28)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Summoned Shadow attacks Forest Ogre : *hit* : (4 + 17 = 21)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Bink damages Forest Ogre: 68 (60 Physical 8 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Experience Points Gained:  8
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] +8 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Bink killed Forest Ogre
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:14] Off Hand : Sneak Attack : Bink attacks Forest Ogre : *hit* : (11 + 30 = 41)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Sneak Attack : Bink attacks Mountain Wolf : *critical hit* : (18 + 35 = 53 : Threat Roll: 13 + 35 = 48)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Attack Of Opportunity : Summoned Shadow attacks Hill Giant : *hit* : (7 + 22 = 29)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Headbutt: *critical hit*
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Bink attempts Headbutt on Hill Giant : *critical hit* : (19 + 29 = 48 : Threat Roll: 3 + 29 = 32)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Hill Giant : Will Save : *success* : (20 + 5 = 25 vs. DC: 23)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Bink damages Hill Giant: 40 (40 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Bink damages Mountain Wolf: 73 (68 Physical 5 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:16] Sneak Attack : Bink attacks Mountain Wolf : *hit* : (10 + 30 = 40)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:17] Bink damages Mountain Wolf: 41 (40 Physical 1 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:17] Experience Points Gained:  6
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:17] +6 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:17] Bink killed Mountain Wolf
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:17] Sneak Attack : Bink attacks Mountain Wolf : *hit* : (6 + 25 = 31)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:17] Summoned Shadow attacks Hill Giant : *hit* : (12 + 24 = 36)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:17] Off Hand : Summoned Shadow attacks Hill Giant : *hit* : (4 + 22 = 26)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:18] Hill Giant attacks Summoned Shadow : *target concealed: 61%* : (13 + 17 = 30)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:18] Hill Giant hurls a rock.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:19] Off Hand : Summoned Shadow attacks Hill Giant : *miss* : (3 + 17 = 20)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:19] Bink : Reflex Save : *success* : (19 + 29 = 48 vs. DC: 16)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Attack Of Opportunity : Sneak Attack : Bink attacks Hill Giant : *hit* : (5 + 37 = 42)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Summoned Shadow shields you from an attacker.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Bink damages Hill Giant: 39 (38 Physical 1 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Sneak Attack : Bink attacks Hill Giant : *critical hit* : (20 + 28 = 48 : Threat Roll: 14 + 28 = 42)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Hill Giant attacks Summoned Shadow : *hit* : (16 + 12 = 28)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:20] Bink damages Hill Giant: 69 (62 Physical 7 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:21] Hill Giant damages Summoned Shadow: 14 (14 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:21] Summoned Shadow attacks Hill Giant : *hit* : (14 + 22 = 36)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:21] Summoned Shadow attacks Hill Giant : *hit* : (13 + 17 = 30)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] Sneak Attack : Bink attacks Hill Giant : *critical hit* : (20 + 25 = 45 : Threat Roll: 15 + 25 = 40)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] Sneak Attack : Bink attacks Hill Giant : *hit* : (9 + 20 = 29)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] Bink damages Hill Giant: 77 (70 Physical 7 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] Experience Points Gained:  8
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] +8 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] Bink killed Hill Giant
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:22] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:23] Summoned Shadow attacks Hill Giant : *critical hit* : (20 + 12 = 32 : Threat Roll: 19 + 12 = 31)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:23] Summoned Shadow damages Hill Giant: 5 (5 Physical)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:23] Off Hand : Summoned Shadow attacks Hill Giant : *hit* : (13 + 22 = 35)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:24] Sneak Attack : Bink attacks Hill Giant : *hit* : (4 + 37 = 41)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:24] Off Hand : Sneak Attack : Bink attacks Hill Giant : *hit* : (4 + 35 = 39)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:24] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:24] Bink damages Hill Giant: 40 (38 Physical 2 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:24] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:24] Bink damages Hill Giant: 32 (31 Physical 1 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:25] Dirty Fighting is once again available for use.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:25] Off Hand : Summoned Shadow attacks Hill Giant : *hit* : (15 + 17 = 32)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Sneak Attack : Bink attacks Hill Giant : *hit* : (2 + 35 = 37)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Summoned Shadow shields you from an attacker.
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Sneak Attack : Bink attacks Hill Giant : *hit* : (14 + 25 = 39)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Sneak Attack : Bink attacks Hill Giant : *critical hit* : (18 + 30 = 48 : Threat Roll: 17 + 30 = 47)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Bink damages Hill Giant: 42 (38 Physical 4 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Bink damages Hill Giant: 69 (58 Physical 11 Sonic)
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Experience Points Gained:  8
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] +8 XP
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Bink killed Hill Giant
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:26] Hill Giant : Damage Reduction absorbs 5 damage
+[CHAT WINDOW TEXT] [Wed Nov  8 21:49:30] Your character has been saved.
