@@ -1,3 +1,4 @@
+// Functions that control the display changes on index.html. 
 function attributeMods(){
   STRmod.innerText=modtable[Number(STR.innerText)]
   SkillMods[7].innerText = STRmod.innerText
