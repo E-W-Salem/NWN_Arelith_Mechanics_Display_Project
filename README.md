@@ -1,1 +1,1 @@
-this branch is a non-functional branch and was created as part of training on github config management
+this branch was created to test the functionality of the forked website code. 
