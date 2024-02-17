@@ -1,0 +1,159 @@
+
+
+
+.testbox{
+  border: purple solid 2px;
+}
+.FC {
+  display: flex;
+  flex-direction: column;
+}
+.FR {
+  display: flex;
+  flex-direction: row;
+}
+.GC {
+  display: grid;
+  grid-template-columns: repeat(3,1fr)  ;
+
+}
+.SKILLMENU {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.GR {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.width100 {
+  width: 100%;
+}
+.Attributes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+.Gifts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+.Levelups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Printout {
+  display: grid;
+  grid-template-columns: repeat(7,1fr) repeat(3,2fr);
+}
+
+.numbers {
+  text-align: center;
+}
+
+.letters {
+  text-align: right  ;
+}
+
+.marginauto {
+  margin: auto;
+}
+
+.ThreeColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.AllPoints {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+}
+.allowedClass {
+  color: black;
+}
+.prohibitedClass {
+  color: red;
+}
+
+.btn {
+  background: lightgrey;
+  text-align: center;
+}
+
+.lbl {
+  text-align: center ;
+  margin: 2px 0px;
+
+}
+
+.skillCostProhibited {
+  background: red;
+
+}
+.skillCostOne {
+  background: green;
+
+}
+.skillCostTwo {
+  background: yellow;
+
+}
+.twocolumn {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr;
+
+}
+.levelUpButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+}
+
+.buttonsPage {
+  max-width: 450px;
+  min-width: 450px;
+  
+}
+.resetable {
+  min-width: 150px;
+  
+}
+.buttonSpacing {
+  padding: 5px;
+}
+#Reset {
+  background-color: #bb3322;
+  color: antiquewhite;
+}
+#Delevel {
+  background-color: #33bb22;
+  color: antiquewhite;
+}
+@media(max-width: 1400px) {
+  
+  .twocolumn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ThreeColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 600px;
+}
+
+  .Attributes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 600px;
+
+  }
+
+
+}

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neverwinter Nights Character Creator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="twocolumn testbox">
+  <div action="#" id="CharacterSheet" class="FC perimeter buttonsPage testbox">
+
+    <div class="ThreeColumn ">
+
+      <div class="FC ">
+        <button id="Reset" onclick="reset()" class="buttonSpacing" >Reset</button>
+        <button id="Delevel" onclick="delevel()" class="buttonSpacing">Delevel</button>
+        <select name="Alignment" id="Alignment" class="width100 btn resetable buttonSpacing" onclick="classesFromAlignment()">
+          <option selected value="">Alignment</option>
+          <option value="LG" class='dropdown'>Lawful Good</option>
+          <option value="NG" class='dropdown'>Neutral Good</option>
+          <option value="CG" class='dropdown'>Chaotic Good</option>
+          <option value="LN" class='dropdown'>Lawful Neutral</option>
+          <option value="TN" class='dropdown'>True Neutral</option>
+          <option value="CN" class='dropdown'>Chaotic Neutral</option>
+          <option value="LE" class='dropdown'>Lawful Evil</option>
+          <option value="NE" class='dropdown'>Neutral Evil</option>
+          <option value="CE" class='dropdown'>Chaotic Evil</option>
+        </select>
+        <select name="Race" id="Race" class="width100 btn resetable buttonSpacing" onclick="racialTraits()">
+          <option  value="">Race</option>
+          <option value="Human">Human</option>
+          <option value="Deep-Imaskari">Deep-Imaskari</option>
+          <option value="Firbolg">Firbolg</option>
+          <option value="Shield-Dwarf">Shield-Dwarf</option>
+          <option value="Gold-Dwarf">Gold-Dwarf</option>
+          <option value="Duergar">Duergar</option>
+          <option value="Wild-Dwarf">Wild-Dwarf</option>
+          <option value="Moon-Elf">Moon-Elf</option>
+          <option value="Sun-Elf">Sun-Elf</option>
+          <option value="Wild-Elf">Wild-Elf</option>
+          <option value="Wood-Elf">Wood-Elf</option>
+          <option value="Drow">Drow</option>
+          <option value="Rock-Gnome">Rock-Gnome</option>
+          <option value="Svirfneblin">Svirfneblin</option>
+          <option value="Forest-Gnome">Forest-Gnome</option>
+          <option value="Lightfoot-Halfling">Lightfoot-Halfling</option>
+          <option value="Ghostwise-Halfling">Ghostwise-Halfling</option>
+          <option value="Strongheart-Halfling">Strongheart-Halfling</option>
+          <option value="Fey">Fey</option>
+          <option value="Half-Elf">Half-Elf</option>
+          <option value="Half-Orc">Half-Orc</option>
+          <option value="Goblin">Goblin</option>
+          <option value="Kobold">Kobold</option>
+          <option value="Gnoll">Gnoll</option>
+          <option value="Orog">Orog</option>
+          <option value="Hobgoblin">Hobgoblin</option>
+          <option value="Ogre">Ogre</option>
+          <option value="Minotaur">Minotaur</option>
+          <option value="Imp">Imp</option>
+          <option value="Troglodyte">Troglodyte</option>
+          <option value="Yuan-ti">Yuan-ti</option>
+          <option value="Derro">Derro</option>
+          <option value="Rakashasa">Rakashasa</option>
+
+        </select>
+
+      </div>
+
+      
+      <div id="AllPoints" class="AllPoints numbers width100 ">
+        <h5 for="" class=" marginauto">
+          Level
+        </h5>
+        <label for="" id="TotalLevel" class=" width100 marginauto">00</label>
+        <h5 for="" class=" marginauto">
+          Skill Points
+        </h5>
+        <label for="" id="SkillPoints" class=" width100 marginauto">00</label>
+
+      </div>
+
+      <div id="AllPoints" class="AllPoints numbers width100 ">
+        <h5 for="" class=" marginauto">
+          Attribute Points
+        </h5>
+        <label for="" id="InitialAttributePoints" class=" width100 marginauto">30</label>
+        <h5 for="" class=" marginauto ">
+          Bonus Points
+        </h5>
+        <label for="" id="BonusAttributePoints" class=" width100 marginauto">00</label>
+
+      </div>
+
+    </div>
+
+    <div id="Attributes" class=" Attributes  ">
+      
+      <label for="" class="lbl" >STR</label>
+      <button class="btn" onclick="downSTR()">-</button>
+      <label for="" class="numbers attrValues" id="STR">8</label>
+      <button class="btn" onclick="upSTR()">+</button>
+      <label for="" class="numbers " id="STRmod">-1</label>
+      <select name="" id="STRgift" class="btn resetable" onclick="giftSTR()">
+        <option selected value=""></option>
+        <option value="">Gift of Strength</option>
+      </select>
+      
+      <label for="" class="lbl" >DEX</label>
+      <button class="btn" onclick="downDEX()">-</button>
+      <label for="" class="numbers attrValues" id="DEX">8</label>
+      <button class="btn" onclick="upDEX()">+</button>
+      <label for="" class="numbers " id="DEXmod">-1</label>
+      <select name="" id="DEXgift" class="btn resetable" onclick="giftDEX()">
+        <option selected value=""></option>
+        <option value="">Gift of Dexterity</option>
+      </select>
+
+      
+      <label for="" class="lbl">CON</label>
+      <button class="btn" onclick="downCON()">-</button>
+      <label for="" class="numbers attrValues" id="CON">8</label>
+      <button class="btn" onclick="upCON()">+</button>
+      <label for="" class="numbers " id="CONmod">-1</label>
+      <select name="" id="CONgift" class="btn resetable" onclick="giftCON()">
+        <option selected value=""></option>
+        <option value="">Gift of Constitution</option>
+      </select>
+
+      <label for="" class="lbl">WIS</label>
+      <button class="btn" onclick="downWIS()">-</button>
+      <label for="" class="numbers attrValues" id="WIS">8</label>
+      <button class="btn" onclick="upWIS()">+</button>
+      <label for="" class="numbers" id="WISmod">-1</label>
+      <select name="" id="WISgift" class="btn resetable" onclick="giftWIS()">
+        <option selected value=""></option>
+        <option value="">Gift of Wisdom</option>
+      </select>
+      
+      <label for="" class="lbl">INT</label>
+      <button class="btn" onclick="downINT()">-</button>
+      <label for="" class="numbers attrValues" id="INT">8</label>
+      <button class="btn" onclick="upINT()">+</button>
+      <label for="" class="numbers" id="INTmod">-1</label>
+      <select name="" id="INTgift" class="btn resetable" onclick="giftINT()">
+        <option selected value=""></option>
+        <option value="">Gift of Intelligence</option>
+      </select>
+
+      <label for="" class="lbl">CHA</label>
+      <button class="btn" onclick="downCHA()">-</button>
+      <label for="" class="numbers attrValues" id="CHA">8</label>
+      <button class="btn" onclick="upCHA()">+</button>
+      <label for="" class="numbers" id="CHAmod">-1</label>
+      <select name="CHAgift" id="CHAgift" class="btn resetable" onclick="giftCHA()">
+        <option selected value=""></option>
+        <option value="">Gift of Charisma</option>
+      </select>
+
+
+
+
+    </div>
+
+    <div id="MultiClassing" class="FR ">
+
+      <div class="width100" id="">
+
+        <div class="FC">
+
+          <select name="classONE" id="classONE" class="btn resetable" onclick="classOneSelection()">
+            <option selected value="">Class One</option>
+            <option value="Barbarian">Barbarian</option>
+            <option value="Bard">Bard</option>
+            <option value="Cleric">Cleric</option>
+            <option value="Druid">Druid</option>
+            <option value="Fighter">Fighter</option>
+            <option value="Monk">Monk</option>
+            <option value="Paladin">Paladin</option>
+            <option value="Ranger">Ranger</option>
+            <option value="Rogue">Rogue</option>
+            <option value="Sorcerer">Sorcerer</option>
+            <option value="Wizard">Wizard</option>
+          </select>
+
+        </div>
+
+      </div>
+
+      <div class="width100" id="">
+
+        <div class="FC">
+
+          <select name="classTWO" id="classTWO" class="btn resetable" onclick="classTwoSelection()">
+            <option selected value="">Class Two</option>
+            <option value="Barbarian">Barbarian</option>
+            <option value="Bard">Bard</option>
+            <option value="Cleric">Cleric</option>
+            <option value="Druid">Druid</option>
+            <option value="Fighter">Fighter</option>
+            <option value="Monk">Monk</option>
+            <option value="Paladin">Paladin</option>
+            <option value="Ranger">Ranger</option>
+            <option value="Rogue">Rogue</option>
+            <option value="Sorcerer">Sorcerer</option>
+            <option value="Wizard">Wizard</option>
+          </select>
+
+        </div>
+        
+      </div>
+
+      <div class="width100" id="">
+
+        <div class="FC">
+
+          <select name="classTHREE" id="classTHREE" class="btn resetable" onclick="classThreeSelection()">
+            <option selected value="">Class Three</option>
+            <option value="Barbarian">Barbarian</option>
+            <option value="Bard">Bard</option>
+            <option value="Cleric">Cleric</option>
+            <option value="Druid">Druid</option>
+            <option value="Fighter">Fighter</option>
+            <option value="Monk">Monk</option>
+            <option value="Paladin">Paladin</option>
+            <option value="Ranger">Ranger</option>
+            <option value="Rogue">Rogue</option>
+            <option value="Sorcerer">Sorcerer</option>
+            <option value="Wizard">Wizard</option>
+          </select>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div id="MultiClassingButtons" class="Levelups ">
+      <div class="levelUpButtons">
+        <button id="CL1BTN" class="btn" >+</button>
+        <h3 id="CL1" class="marginauto"></h3>
+        
+      </div>
+      <div class="levelUpButtons">
+        <button id="CL2BTN"class="btn" >+</button>
+        <h3 id="CL2" class="marginauto"></h3>
+        
+      </div>
+      <div class="levelUpButtons">
+        <button id="CL3BTN" class="btn" >+</button>
+        <h3 id="CL3" class="marginauto"></h3>
+        
+      </div>
+
+    </div>
+    
+    <div id="SkillsPlusFeats" class="levelUpButtons">
+      <div id="Skills" class="GC numbers  ">
+          
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(0)">Animal Empathy</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(1)">Appraise</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(2)">Bluff</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(3)">Concentration</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(4)">Craft Mastery</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(5)">Craft Trap</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(6)">Disable Trap</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(7)">Discipline</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(8)">Heal</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(9)">Hide</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(10)">Intimidate</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(11)">Listen</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(12)">Lore</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(13)">Move Silently</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(14)">Open Lock</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(15)">Parry</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+    
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(16)">Perform</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(17)">Persuade</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(18)">Pick Pocket</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(19)">Ride</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(20)">Search</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(21)">Set Trap</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+    
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(22)">Spellcraft</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(23)">Spot</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(24)">Taunt</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(25)">Tumble</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+        
+        <button name="test"  class=" SkillButtons" onclick="skillPointAllocation(26)">Use Magic Device</button>
+        <label for="" class="lbl SkillValues">0</label>
+        <label for="" class="lbl SkillMods">-1</label>
+    
+      </div>
+      <div id="FeatButtons" class="lbl ">
+       <select name="" id="" class="width100">
+        <option selected value="">TestFeat</option>
+       </select>
+       
+      </div>
+    
+    </div>
+
+  </div>
+
+  <div id="Printout" class="Printout perimeter testbox">
+    <label class="lbl"for="">Level</label>
+    <label class="lbl"for="">Class</label>
+    <label class="lbl"for="">Class Level </label>
+    <label class="lbl"for="">BAB</label>
+    <label class="lbl"for="">FORT</label>
+    <label class="lbl"for="">REFL</label>
+    <label class="lbl"for="">WILL</label>
+    <label class="lbl"for="">FEAT</label>
+    <label class="lbl"for="">FEAT</label>
+    <label class="lbl"for="">FEAT</label>
+  </div>
+
+  <script src="Rulebook.js"></script>
+  <script src="variables.js"></script>
+  <script src="domObjects.js"></script>
+  <script src="featBook.js"></script>
+  <script src="downButton.js"></script>
+
+</body>
+</html>
